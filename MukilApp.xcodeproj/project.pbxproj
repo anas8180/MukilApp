@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		894FB0361B158C6300778897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FB0351B158C6300778897 /* AppDelegate.swift */; };
+		894FB0381B158C6300778897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FB0371B158C6300778897 /* ViewController.swift */; };
+		894FB03B1B158C6300778897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894FB0391B158C6300778897 /* Main.storyboard */; };
+		894FB03D1B158C6300778897 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894FB03C1B158C6300778897 /* Images.xcassets */; };
+		894FB0401B158C6300778897 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 894FB03E1B158C6300778897 /* LaunchScreen.xib */; };
+		894FB04C1B158C6400778897 /* MukilAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FB04B1B158C6400778897 /* MukilAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		894FB0461B158C6300778897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 894FB0281B158C6300778897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 894FB02F1B158C6300778897;
+			remoteInfo = MukilApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		894FB0301B158C6300778897 /* MukilApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MukilApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FB0341B158C6300778897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894FB0351B158C6300778897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		894FB0371B158C6300778897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		894FB03A1B158C6300778897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		894FB03C1B158C6300778897 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		894FB03F1B158C6300778897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		894FB0451B158C6300778897 /* MukilAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MukilAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FB04A1B158C6300778897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894FB04B1B158C6400778897 /* MukilAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukilAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		894FB02D1B158C6300778897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FB0421B158C6300778897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		894FB0271B158C6300778897 = {
+			isa = PBXGroup;
+			children = (
+				894FB0321B158C6300778897 /* MukilApp */,
+				894FB0481B158C6300778897 /* MukilAppTests */,
+				894FB0311B158C6300778897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		894FB0311B158C6300778897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				894FB0301B158C6300778897 /* MukilApp.app */,
+				894FB0451B158C6300778897 /* MukilAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		894FB0321B158C6300778897 /* MukilApp */ = {
+			isa = PBXGroup;
+			children = (
+				894FB0351B158C6300778897 /* AppDelegate.swift */,
+				894FB0371B158C6300778897 /* ViewController.swift */,
+				894FB0391B158C6300778897 /* Main.storyboard */,
+				894FB03C1B158C6300778897 /* Images.xcassets */,
+				894FB03E1B158C6300778897 /* LaunchScreen.xib */,
+				894FB0331B158C6300778897 /* Supporting Files */,
+			);
+			path = MukilApp;
+			sourceTree = "<group>";
+		};
+		894FB0331B158C6300778897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				894FB0341B158C6300778897 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		894FB0481B158C6300778897 /* MukilAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				894FB04B1B158C6400778897 /* MukilAppTests.swift */,
+				894FB0491B158C6300778897 /* Supporting Files */,
+			);
+			path = MukilAppTests;
+			sourceTree = "<group>";
+		};
+		894FB0491B158C6300778897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				894FB04A1B158C6300778897 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		894FB02F1B158C6300778897 /* MukilApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894FB04F1B158C6400778897 /* Build configuration list for PBXNativeTarget "MukilApp" */;
+			buildPhases = (
+				894FB02C1B158C6300778897 /* Sources */,
+				894FB02D1B158C6300778897 /* Frameworks */,
+				894FB02E1B158C6300778897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MukilApp;
+			productName = MukilApp;
+			productReference = 894FB0301B158C6300778897 /* MukilApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		894FB0441B158C6300778897 /* MukilAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894FB0521B158C6400778897 /* Build configuration list for PBXNativeTarget "MukilAppTests" */;
+			buildPhases = (
+				894FB0411B158C6300778897 /* Sources */,
+				894FB0421B158C6300778897 /* Frameworks */,
+				894FB0431B158C6300778897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				894FB0471B158C6300778897 /* PBXTargetDependency */,
+			);
+			name = MukilAppTests;
+			productName = MukilAppTests;
+			productReference = 894FB0451B158C6300778897 /* MukilAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		894FB0281B158C6300778897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = mohamed;
+				TargetAttributes = {
+					894FB02F1B158C6300778897 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					894FB0441B158C6300778897 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 894FB02F1B158C6300778897;
+					};
+				};
+			};
+			buildConfigurationList = 894FB02B1B158C6300778897 /* Build configuration list for PBXProject "MukilApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 894FB0271B158C6300778897;
+			productRefGroup = 894FB0311B158C6300778897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				894FB02F1B158C6300778897 /* MukilApp */,
+				894FB0441B158C6300778897 /* MukilAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		894FB02E1B158C6300778897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894FB03B1B158C6300778897 /* Main.storyboard in Resources */,
+				894FB0401B158C6300778897 /* LaunchScreen.xib in Resources */,
+				894FB03D1B158C6300778897 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FB0431B158C6300778897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		894FB02C1B158C6300778897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894FB0381B158C6300778897 /* ViewController.swift in Sources */,
+				894FB0361B158C6300778897 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FB0411B158C6300778897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894FB04C1B158C6400778897 /* MukilAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		894FB0471B158C6300778897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 894FB02F1B158C6300778897 /* MukilApp */;
+			targetProxy = 894FB0461B158C6300778897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		894FB0391B158C6300778897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				894FB03A1B158C6300778897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		894FB03E1B158C6300778897 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				894FB03F1B158C6300778897 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		894FB04D1B158C6400778897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		894FB04E1B158C6400778897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		894FB0501B158C6400778897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MukilApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		894FB0511B158C6400778897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MukilApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		894FB0531B158C6400778897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MukilAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MukilApp.app/MukilApp";
+			};
+			name = Debug;
+		};
+		894FB0541B158C6400778897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MukilAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MukilApp.app/MukilApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		894FB02B1B158C6300778897 /* Build configuration list for PBXProject "MukilApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894FB04D1B158C6400778897 /* Debug */,
+				894FB04E1B158C6400778897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894FB04F1B158C6400778897 /* Build configuration list for PBXNativeTarget "MukilApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894FB0501B158C6400778897 /* Debug */,
+				894FB0511B158C6400778897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		894FB0521B158C6400778897 /* Build configuration list for PBXNativeTarget "MukilAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894FB0531B158C6400778897 /* Debug */,
+				894FB0541B158C6400778897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 894FB0281B158C6300778897 /* Project object */;
+}
