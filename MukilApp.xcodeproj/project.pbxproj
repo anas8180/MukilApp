@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893AF42A1B1986BB00FA54B5 /* SFCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AF4291B1986BB00FA54B5 /* SFCollectionViewController.swift */; };
 		893BDDB31B16FBF000723658 /* ProgramsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BDDB21B16FBF000723658 /* ProgramsDetailViewController.swift */; };
 		893BDDB51B16FC0A00723658 /* ProgramsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BDDB41B16FC0A00723658 /* ProgramsWebViewController.swift */; };
 		8942A2431B170EFD008CBB2B /* VideoPlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942A2421B170EFD008CBB2B /* VideoPlayListViewController.swift */; };
@@ -50,7 +51,6 @@
 		898E0BE21B1604A700ACAB7F /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E0BE11B1604A700ACAB7F /* CAPSPageMenu.swift */; };
 		898E0BE41B16052400ACAB7F /* ProgramCollectioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E0BE31B16052400ACAB7F /* ProgramCollectioViewController.swift */; };
 		89D79D961B16420100EC5C51 /* ShortFilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D79D951B16420100EC5C51 /* ShortFilmViewController.swift */; };
-		89D79D981B16427A00EC5C51 /* SFCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D79D971B16427A00EC5C51 /* SFCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		893AF4291B1986BB00FA54B5 /* SFCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFCollectionViewController.swift; sourceTree = "<group>"; };
 		893BDDB21B16FBF000723658 /* ProgramsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsDetailViewController.swift; sourceTree = "<group>"; };
 		893BDDB41B16FC0A00723658 /* ProgramsWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsWebViewController.swift; sourceTree = "<group>"; };
 		8942A2421B170EFD008CBB2B /* VideoPlayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayListViewController.swift; sourceTree = "<group>"; };
@@ -133,7 +134,6 @@
 		898E0BE11B1604A700ACAB7F /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
 		898E0BE31B16052400ACAB7F /* ProgramCollectioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramCollectioViewController.swift; sourceTree = "<group>"; };
 		89D79D951B16420100EC5C51 /* ShortFilmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortFilmViewController.swift; sourceTree = "<group>"; };
-		89D79D971B16427A00EC5C51 /* SFCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,7 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				89D79D951B16420100EC5C51 /* ShortFilmViewController.swift */,
-				89D79D971B16427A00EC5C51 /* SFCollectionViewController.swift */,
+				893AF4291B1986BB00FA54B5 /* SFCollectionViewController.swift */,
 			);
 			name = "Short Films";
 			sourceTree = "<group>";
@@ -544,8 +544,8 @@
 				894FB0AE1B15B1A700778897 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				894FB0AD1B15B1A700778897 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				894FB0611B158F5E00778897 /* RearViewController.swift in Sources */,
+				893AF42A1B1986BB00FA54B5 /* SFCollectionViewController.swift in Sources */,
 				894FB05E1B158EFA00778897 /* FrontViewController.swift in Sources */,
-				89D79D981B16427A00EC5C51 /* SFCollectionViewController.swift in Sources */,
 				898E0BE41B16052400ACAB7F /* ProgramCollectioViewController.swift in Sources */,
 				893BDDB51B16FC0A00723658 /* ProgramsWebViewController.swift in Sources */,
 				894FB0C71B15E1C100778897 /* CustomCollectionViewCell.swift in Sources */,

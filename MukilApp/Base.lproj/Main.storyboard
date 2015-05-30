@@ -1177,7 +1177,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O74-Gm-uDw">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O74-Gm-uDw">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="EoF-eX-gY5">
@@ -1336,6 +1336,7 @@
                                     <constraint firstItem="5mi-tD-w9K" firstAttribute="top" secondItem="usG-mw-XI6" secondAttribute="bottom" constant="8" id="q4F-hq-Bp5"/>
                                     <constraint firstItem="hCW-Tb-Yc4" firstAttribute="top" secondItem="Yji-VX-wTY" secondAttribute="bottom" constant="8" id="v6N-5g-y2Z"/>
                                     <constraint firstItem="RpA-cv-Y2d" firstAttribute="top" secondItem="hCW-Tb-Yc4" secondAttribute="bottom" constant="8" id="wrk-vt-GZj"/>
+                                    <constraint firstAttribute="trailing" secondItem="zeM-YQ-6yR" secondAttribute="trailing" constant="187" id="xSN-t2-XTw"/>
                                     <constraint firstItem="2bM-Bi-XvX" firstAttribute="leading" secondItem="2Tq-44-QDc" secondAttribute="trailing" constant="8" id="ypS-DD-fBf"/>
                                 </constraints>
                             </scrollView>
@@ -1391,7 +1392,7 @@
                                                 <constraint firstAttribute="height" constant="45" id="D6l-U7-oL9"/>
                                                 <constraint firstAttribute="width" constant="45" id="ETz-En-2N8"/>
                                             </constraints>
-                                            <state key="normal" image="D0856465-FB27-41B0-B28C-2428E4B52401"/>
+                                            <state key="normal" image="39973363-D600-4FDF-93B6-4EDA68988218"/>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1427,7 +1428,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="D0856465-FB27-41B0-B28C-2428E4B52401" width="100" height="100">
+        <image name="39973363-D600-4FDF-93B6-4EDA68988218" width="100" height="100">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
