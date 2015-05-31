@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3FFF79D2-56A4-4B20-9946-6A39A4AC3E24</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MukilApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3994B8510B1974703BB2026C1BEB651DE856D1DF</key>
+		<string>https://github.com/anas8180/MukilApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MukilApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3994B8510B1974703BB2026C1BEB651DE856D1DF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anas8180/MukilApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3994B8510B1974703BB2026C1BEB651DE856D1DF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3994B8510B1974703BB2026C1BEB651DE856D1DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MukilApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
