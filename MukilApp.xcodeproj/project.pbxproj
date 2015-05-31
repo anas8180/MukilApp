@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		893AF42A1B1986BB00FA54B5 /* SFCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AF4291B1986BB00FA54B5 /* SFCollectionViewController.swift */; };
+		893BC62F1B1B173000675F5B /* ShortFilmCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BC62E1B1B173000675F5B /* ShortFilmCollectionViewController.swift */; };
 		893BDDB31B16FBF000723658 /* ProgramsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BDDB21B16FBF000723658 /* ProgramsDetailViewController.swift */; };
 		893BDDB51B16FC0A00723658 /* ProgramsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BDDB41B16FC0A00723658 /* ProgramsWebViewController.swift */; };
 		8942A2431B170EFD008CBB2B /* VideoPlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942A2421B170EFD008CBB2B /* VideoPlayListViewController.swift */; };
@@ -64,7 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		893AF4291B1986BB00FA54B5 /* SFCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFCollectionViewController.swift; sourceTree = "<group>"; };
+		893BC62E1B1B173000675F5B /* ShortFilmCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortFilmCollectionViewController.swift; sourceTree = "<group>"; };
 		893BDDB21B16FBF000723658 /* ProgramsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsDetailViewController.swift; sourceTree = "<group>"; };
 		893BDDB41B16FC0A00723658 /* ProgramsWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsWebViewController.swift; sourceTree = "<group>"; };
 		8942A2421B170EFD008CBB2B /* VideoPlayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayListViewController.swift; sourceTree = "<group>"; };
@@ -417,7 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				89D79D951B16420100EC5C51 /* ShortFilmViewController.swift */,
-				893AF4291B1986BB00FA54B5 /* SFCollectionViewController.swift */,
+				893BC62E1B1B173000675F5B /* ShortFilmCollectionViewController.swift */,
 			);
 			name = "Short Films";
 			sourceTree = "<group>";
@@ -535,6 +535,7 @@
 				894FB0741B15ABF600778897 /* CustomTableViewCell.swift in Sources */,
 				894FB0AF1B15B1A700778897 /* UIAlertView+AFNetworking.m in Sources */,
 				894FB0931B15B17900778897 /* AFHTTPRequestOperationManager.m in Sources */,
+				893BC62F1B1B173000675F5B /* ShortFilmCollectionViewController.swift in Sources */,
 				894FB07A1B15ADF600778897 /* RadioViewController.swift in Sources */,
 				898E0BDF1B16046900ACAB7F /* ProgramViewController.swift in Sources */,
 				894FB07D1B15B05D00778897 /* TVViewController.swift in Sources */,
@@ -544,7 +545,6 @@
 				894FB0AE1B15B1A700778897 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				894FB0AD1B15B1A700778897 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				894FB0611B158F5E00778897 /* RearViewController.swift in Sources */,
-				893AF42A1B1986BB00FA54B5 /* SFCollectionViewController.swift in Sources */,
 				894FB05E1B158EFA00778897 /* FrontViewController.swift in Sources */,
 				898E0BE41B16052400ACAB7F /* ProgramCollectioViewController.swift in Sources */,
 				893BDDB51B16FC0A00723658 /* ProgramsWebViewController.swift in Sources */,

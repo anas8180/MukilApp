@@ -23,12 +23,12 @@ class ShortFilmViewController: UIViewController {
         
         var controllerArray : [UIViewController] = []
 
-        let controller1:SFCollectionViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("SFCollectionVC") as! SFCollectionViewController
+        let controller1:ShortFilmCollectionViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("SFCollectionVC") as! ShortFilmCollectionViewController
         controller1.title = "Teaser"
         controller1.appendUrl = "feed_Teaser"
         controllerArray.append(controller1)
         
-        let controller2:SFCollectionViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("SFCollectionVC") as! SFCollectionViewController
+        let controller2:ShortFilmCollectionViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("SFCollectionVC") as! ShortFilmCollectionViewController
         controller2.title = "Movies"
         controller2.appendUrl = "feed_Trailor"
         controllerArray.append(controller2)
