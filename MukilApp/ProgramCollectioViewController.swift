@@ -127,7 +127,18 @@ class ProgramCollectioViewController: UICollectionViewController,UICollectionVie
         var screenSzie:CGSize = UIScreen.mainScreen().bounds.size
         var widhScreen = screenSzie.width
         
-        return CGSizeMake(widhScreen, 200)
+        if widhScreen == 320
+        {
+            return CGSizeMake(320, 200)
+        }
+        else if widhScreen == 375
+        {
+            return CGSizeMake(375, 200)
+        }
+        else
+        {
+            return CGSizeMake(414, 200)
+        }
         
     }
     

@@ -117,6 +117,16 @@ class ShortFilmCollectionViewController: UICollectionViewController {
         return cell
     }
     
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        let url:String = self.dataArray.objectAtIndex(indexPath.row).objectForKey("teaser") as! String
+        
+        let finalUrl:String = "https://www.youtube.com/watch?v=" + url
+        
+        self.getId(finalUrl)
+    }
+
+    
     func configureCell(cell:CustomCollectionViewCell,indexPath:NSIndexPath)
     {
         
@@ -161,6 +171,27 @@ class ShortFilmCollectionViewController: UICollectionViewController {
         
         getImage.resume()
         
+    }
+
+    
+    // MARK :- Parse Youtube URL
+    
+    func getId(originalURL:String)-> String {
+        
+        
+        var error: NSError?
+        
+        let regex = NSRegularExpression(pattern: "v=(.+?)(?=$|&)", options: NSRegularExpressionOptions.CaseInsensitive, error: &error)
+        println(originalURL)
+        println(regex)
+        
+        let match: NSTextCheckingResult? = regex!.firstMatchInString(originalURL, options: NSMatchingOptions(0), range: NSMakeRange(0, count(originalURL)))
+        println(match)
+        
+        let videoID = (originalURL as NSString).substringWithRange(match!.range).stringByReplacingOccurrencesOfString("v=", withString: "")
+        println(videoID)
+        
+        return videoID
     }
 
 

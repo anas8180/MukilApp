@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import MediaPlayer
 
 class TVViewController: UITableViewController {
 
     var dataArray : NSArray = NSArray ()
-    
+    var moviePlayer:MPMoviePlayerController!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -73,6 +75,13 @@ class TVViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        let url:String = self.dataArray.objectAtIndex(indexPath.row).objectForKey("ios") as! String
+        
+        self.PlayVide(url)
+    }
+    
     // MARK: - Configure Cell
     
     func configureCell(cell:CustomTableViewCell,indexPath:NSIndexPath)
@@ -111,6 +120,28 @@ class TVViewController: UITableViewController {
         
     }
     
+    // MARK: - Play Video
+    
+    func PlayVide(urlString : String) {
+        
+        var url = NSURL(string : urlString)!
+        
+        moviePlayer = MPMoviePlayerController(contentURL: url)
+        moviePlayer.view.frame = self.view.bounds
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "moviePlayerDidFinishPlaying:" , name: MPMoviePlayerPlaybackDidFinishNotification, object: moviePlayer)
+
+        self.view.addSubview(moviePlayer.view)
+        moviePlayer.fullscreen = true
+        
+        moviePlayer.controlStyle = MPMovieControlStyle.Embedded
+
+    }
+
+    func moviePlayerDidFinishPlaying(notification: NSNotification) {
+        
+    }
+
 
     /*
     // Override to support conditional editing of the table view.

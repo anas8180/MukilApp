@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893B72FA1B1DA8C0004E09BD /* NSString+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 893B72F91B1DA8C0004E09BD /* NSString+QueryString.m */; };
 		893BC62F1B1B173000675F5B /* ShortFilmCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BC62E1B1B173000675F5B /* ShortFilmCollectionViewController.swift */; };
+		893BC6311B1B25FC00675F5B /* GetColorFromHexaString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BC6301B1B25FC00675F5B /* GetColorFromHexaString.swift */; };
 		893BDDB31B16FBF000723658 /* ProgramsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BDDB21B16FBF000723658 /* ProgramsDetailViewController.swift */; };
 		893BDDB51B16FC0A00723658 /* ProgramsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BDDB41B16FC0A00723658 /* ProgramsWebViewController.swift */; };
 		8942A2431B170EFD008CBB2B /* VideoPlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942A2421B170EFD008CBB2B /* VideoPlayListViewController.swift */; };
 		8942A2461B172786008CBB2B /* SocialNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942A2451B172786008CBB2B /* SocialNetworkViewController.swift */; };
+		89430E841B1C2DBB00AA430F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89430E831B1C2DBB00AA430F /* ContactViewController.swift */; };
+		89430E881B1C3F7400AA430F /* RadioPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89430E871B1C3F7400AA430F /* RadioPlayViewController.swift */; };
 		894FB0361B158C6300778897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FB0351B158C6300778897 /* AppDelegate.swift */; };
 		894FB03B1B158C6300778897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894FB0391B158C6300778897 /* Main.storyboard */; };
 		894FB03D1B158C6300778897 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894FB03C1B158C6300778897 /* Images.xcassets */; };
@@ -64,11 +68,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		893B72F81B1DA8C0004E09BD /* NSString+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QueryString.h"; sourceTree = "<group>"; };
+		893B72F91B1DA8C0004E09BD /* NSString+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QueryString.m"; sourceTree = "<group>"; };
 		893BC62E1B1B173000675F5B /* ShortFilmCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortFilmCollectionViewController.swift; sourceTree = "<group>"; };
+		893BC6301B1B25FC00675F5B /* GetColorFromHexaString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetColorFromHexaString.swift; sourceTree = "<group>"; };
 		893BDDB21B16FBF000723658 /* ProgramsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsDetailViewController.swift; sourceTree = "<group>"; };
 		893BDDB41B16FC0A00723658 /* ProgramsWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsWebViewController.swift; sourceTree = "<group>"; };
 		8942A2421B170EFD008CBB2B /* VideoPlayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayListViewController.swift; sourceTree = "<group>"; };
 		8942A2451B172786008CBB2B /* SocialNetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetworkViewController.swift; sourceTree = "<group>"; };
+		89430E831B1C2DBB00AA430F /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		89430E871B1C3F7400AA430F /* RadioPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayViewController.swift; sourceTree = "<group>"; };
 		894FB0301B158C6300778897 /* MukilApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MukilApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		894FB0341B158C6300778897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		894FB0351B158C6300778897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +171,14 @@
 			name = "Social Networks";
 			sourceTree = "<group>";
 		};
+		89430E851B1C2DC000AA430F /* ContactViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89430E831B1C2DBB00AA430F /* ContactViewController.swift */,
+			);
+			name = ContactViewController;
+			sourceTree = "<group>";
+		};
 		894FB0271B158C6300778897 = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +264,7 @@
 		894FB05B1B158EBC00778897 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				89430E851B1C2DC000AA430F /* ContactViewController */,
 				8942A2441B172766008CBB2B /* Social Networks */,
 				89D79D941B1641E200EC5C51 /* Short Films */,
 				898E0BDD1B16043F00ACAB7F /* Progrmas */,
@@ -282,6 +300,9 @@
 			children = (
 				894FB06F1B15AA5600778897 /* UIViewController+RevealButton.h */,
 				894FB0701B15AA5600778897 /* UIViewController+RevealButton.m */,
+				893B72F81B1DA8C0004E09BD /* NSString+QueryString.h */,
+				893B72F91B1DA8C0004E09BD /* NSString+QueryString.m */,
+				893BC6301B1B25FC00675F5B /* GetColorFromHexaString.swift */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -299,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				894FB0791B15ADF600778897 /* RadioViewController.swift */,
+				89430E871B1C3F7400AA430F /* RadioPlayViewController.swift */,
 			);
 			name = Radio;
 			sourceTree = "<group>";
@@ -537,7 +559,9 @@
 				894FB0931B15B17900778897 /* AFHTTPRequestOperationManager.m in Sources */,
 				893BC62F1B1B173000675F5B /* ShortFilmCollectionViewController.swift in Sources */,
 				894FB07A1B15ADF600778897 /* RadioViewController.swift in Sources */,
+				893BC6311B1B25FC00675F5B /* GetColorFromHexaString.swift in Sources */,
 				898E0BDF1B16046900ACAB7F /* ProgramViewController.swift in Sources */,
+				89430E881B1C3F7400AA430F /* RadioPlayViewController.swift in Sources */,
 				894FB07D1B15B05D00778897 /* TVViewController.swift in Sources */,
 				894FB0B11B15B1A700778897 /* UIImageView+AFNetworking.m in Sources */,
 				894FB0941B15B17900778897 /* AFHTTPSessionManager.m in Sources */,
@@ -545,11 +569,13 @@
 				894FB0AE1B15B1A700778897 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				894FB0AD1B15B1A700778897 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				894FB0611B158F5E00778897 /* RearViewController.swift in Sources */,
+				893B72FA1B1DA8C0004E09BD /* NSString+QueryString.m in Sources */,
 				894FB05E1B158EFA00778897 /* FrontViewController.swift in Sources */,
 				898E0BE41B16052400ACAB7F /* ProgramCollectioViewController.swift in Sources */,
 				893BDDB51B16FC0A00723658 /* ProgramsWebViewController.swift in Sources */,
 				894FB0C71B15E1C100778897 /* CustomCollectionViewCell.swift in Sources */,
 				8942A2431B170EFD008CBB2B /* VideoPlayListViewController.swift in Sources */,
+				89430E841B1C2DBB00AA430F /* ContactViewController.swift in Sources */,
 				894FB0711B15AA5600778897 /* UIViewController+RevealButton.m in Sources */,
 				894FB0961B15B17900778897 /* AFSecurityPolicy.m in Sources */,
 				89D79D961B16420100EC5C51 /* ShortFilmViewController.swift in Sources */,

@@ -119,6 +119,12 @@ class VideoPlayListViewController: UICollectionViewController,UICollectionViewDe
         return cell
     }
     
+    
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        self.getId()
+    }
+    
     // MARK: - Configure Cell
     
     func configureCell(cell:CustomCollectionViewCell,indexPath:NSIndexPath)
@@ -158,6 +164,33 @@ class VideoPlayListViewController: UICollectionViewController,UICollectionViewDe
         getImage.resume()
         
     }
+
+    // MARK :- Parse Youtube URL
+    
+    func getId() {
+   
+        var url = "https://www.youtube.com/watch?v=Kxz9Yummdlw"
+        
+    //    var pattern = "/^.*(youtu.be\\/|v\\/|u\\/\\w\\/|embed\\/|watch\\?v=|\\&v=)([^#\\&\\?]*).*/"
+        
+   /*     var error: NSError? = nil
+        
+        var regex = NSRegularExpression(pattern: pattern, options: NSRegularExpressionOptions.DotMatchesLineSeparators, error: &error)!
+
+        let results = regex.matchesInString(url,
+            options: nil, range: NSMakeRange(0, count(url.utf16)))
+            as! [NSTextCheckingResult]
+        
+        println(results) */
+        
+//        var urlToload =
+        
+//        self.getParseUrl
+        
+        var urls = NSString.getParseUrl(url)
+        println(urls)
+    }
+
 
 
     // MARK: UICollectionViewDelegate

@@ -6,3 +6,4 @@
 #import "UIViewController+RevealButton.h"
 #import "AFNetworking.h"
 #import "UIImageView+AFNetworking.h"
+#import "NSString+QueryString.h"
