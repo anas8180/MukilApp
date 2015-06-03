@@ -76,6 +76,8 @@ class FrontViewController: UIViewController,UICollectionViewDelegate,UICollectio
         
         var screenSzie:CGSize = UIScreen.mainScreen().bounds.size
         var widhScreen = screenSzie.width
+        var heightScreen = screenSzie.height
+        
         
         if widhScreen == 320
         {
@@ -85,10 +87,31 @@ class FrontViewController: UIViewController,UICollectionViewDelegate,UICollectio
         {
             return CGSizeMake(173, 173)
         }
-        else
+        else if widhScreen == 414
         {
             return CGSizeMake(188, 188)
         }
+        else if widhScreen == 667
+        {
+            return CGSizeMake(212, 212)
+        }
+        else if widhScreen == 568
+        {
+            return CGSizeMake(176, 176)
+        }
+        else if widhScreen == 480
+        {
+            return CGSizeMake(150, 150)
+        }
+        else if widhScreen == 736
+        {
+            return CGSizeMake(230, 230)
+        }
+        else
+        {
+            return CGSizeMake(0, 0)
+        }
+        
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {

@@ -113,7 +113,7 @@ class VideoViewController: UICollectionViewController,UICollectionViewDelegateFl
 
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
         
-        return UIEdgeInsets(top: 10.0, left: 10.0, bottom: 10.0, right: 10.0)
+        return UIEdgeInsets(top: 10.0, left: 0.0, bottom: 10.0, right: 0.0)
         
     }
     
@@ -122,7 +122,19 @@ class VideoViewController: UICollectionViewController,UICollectionViewDelegateFl
         var screenSzie:CGSize = UIScreen.mainScreen().bounds.size
         var widhScreen = screenSzie.width
         
-        return CGSizeMake(widhScreen, 200)
+        if widhScreen == 320
+        {
+            return CGSizeMake(320, 200)
+        }
+        else if widhScreen == 375
+        {
+            return CGSizeMake(375, 200)
+        }
+        else
+        {
+            return CGSizeMake(414, 200)
+            
+        }
         
     }
     
